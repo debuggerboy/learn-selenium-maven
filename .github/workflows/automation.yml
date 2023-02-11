@@ -33,3 +33,6 @@ jobs:
     - name: List files
       run: ls -liFhR
 
+    - name: Build a package
+      run: mvn package
+
