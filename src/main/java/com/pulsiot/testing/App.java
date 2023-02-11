@@ -23,7 +23,7 @@ public class App
 {
     public static void main() {
         // Set Driver path
-        System.setProperty("webdriver.chrome.driver", "C:\\AUTOMATION\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         WebDriver driver=new ChromeDriver();
 
         //open google
