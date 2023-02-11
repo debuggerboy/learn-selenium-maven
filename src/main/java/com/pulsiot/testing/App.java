@@ -39,7 +39,10 @@ public class App
         wait.until(ExpectedConditions.presenceOfElementLocated(By.className("sbtc")));
 
         WebElement list=driver.findElement(By.className("sbtc"));
-        List rows=list.findElements(By.tagName("li"));
+        //List rows=list.findElements(By.tagName("li"));
+        List<WebElement> rows = list.findElements(By.tagName("li"));
+
+        System.out.println("Rows count is: "+rows .size());
 
         for(WebElement elem:rows) {
             System.out.println(elem.getText());
@@ -47,5 +50,4 @@ public class App
 
     }
 }
-
 
