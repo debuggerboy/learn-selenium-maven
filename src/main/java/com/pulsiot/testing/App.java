@@ -27,7 +27,7 @@ public class App
 
         //open google
         driver.get("https://www.google.com");
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         //enter linux tutorials in search box
         driver.findElement(By.name("q")).sendKeys("Linux Tutorials");
