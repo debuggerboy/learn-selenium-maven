@@ -2,6 +2,7 @@ package com.pulsiot.testing;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
